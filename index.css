@@ -1,0 +1,17 @@
+.card-collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.selected{
+    border: 3px solid red;
+}
+h1,h2,h3,h4,h5,p{
+    text-align: center;
+}
+@media (max-width: 768px){
+    .card-collection{
+        grid-template-columns: 1fr;
+    }
+    
+}
